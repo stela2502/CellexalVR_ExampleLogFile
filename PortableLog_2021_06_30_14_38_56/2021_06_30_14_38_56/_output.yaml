@@ -1,0 +1,6 @@
+book_filename: AH_Figure_2021_06_30_14_38_56
+output_dir: ../
+output:
+  html_document:
+    css: "table.css"
+delete_merged_file: true

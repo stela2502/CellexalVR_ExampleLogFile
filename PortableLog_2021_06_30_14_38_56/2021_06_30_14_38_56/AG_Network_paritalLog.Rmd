@@ -1,0 +1,8 @@
+### User.group.5 Network map (from CellexalVR)
+
+
+This selection is available in the R object as group User.group.5 and is based on the selection file selection2.txt 
+
+
+
+![]( 2021_06_30_14_38_56/png/Enlarged_Network0_2021-06-30-14-41-41.png )

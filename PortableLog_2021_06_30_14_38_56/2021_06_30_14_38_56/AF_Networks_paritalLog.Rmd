@@ -1,0 +1,25 @@
+
+## User.group.5 Network calculation
+
+A new transcription factor network has been calculated for CellexalVR based on the grouping User.group.5 and this <a href='./2021_06_30_14_38_56/selection2.txt' download>selection file</a>.
+You can download the network table <a href='./2021_06_30_14_38_56/AANetworks.nwk' download>here</a>.
+
+## The 2D representation(s) of grouping User.group.5 :
+
+The grouping originates from the grouping file selection2.txt 
+
+ ### 2D DRC DDRtree dim 1,2 ( User.group.5 ) 
+
+
+![]( 2021_06_30_14_38_56/png/User.group.5.DDRtree.1_2.png )
+
+### 2D DRC DDRtree dim 2,3 ( User.group.5 ) 
+
+
+![]( 2021_06_30_14_38_56/png/User.group.5.DDRtree.2_3.png )
+
+### 2D DRC DDRtree dim 1,3 ( User.group.5 ) 
+
+
+![]( 2021_06_30_14_38_56/png/User.group.5.DDRtree.1_3.png )
+

@@ -1,0 +1,32 @@
+
+cellexalObj <- sessionPath(cellexalObj, NULL)
+
+
+cellexalObj <- userGrouping(cellexalObj, "I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\selection1.txt")
+
+
+cellexalObj = make.cellexalvr.heatmap.list(cellexalObj, "I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\selection1.txt",250,"I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\Heatmap\\heatmap_14-39-16.txt","wilcox")
+
+calculating wilcox test(s) for 2744 genes
+calculating wilcox test(s) for 1412 genes
+merge a matrix of 250 rows and 474 into 2 return columns using simple add
+ I create a results table with 250rows and 2 columns
+
+cellexalObj = logHeatmap(cellexalObj, file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','Heatmap','heatmap_14-39-16.txt'), file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','Heatmap','heatmap_14-39-16_2021-06-30-14-39-39.png'), file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','selection1.txt'),"BP",20)
+
+
+get.genes.cor.to(cellexalObj, "Tmem176a", "I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\Resources\\Tmem176a.correlated.txt", "FALSE")
+
+merge a matrix of 1654 rows and 10 into 1 return columns using simple add
+ I create a results table with 1654rows and 1 columns
+merge a matrix of 1654 rows and 10 into 1 return columns using simple add
+ I create a results table with 1654rows and 1 columns
+
+cellexalObj <- userGrouping(cellexalObj, "I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\selection2.txt")
+
+
+make.cellexalvr.network(cellexalObj, "I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\selection2.txt", "I:\\CellexalVR\\CellexalVR_0.14.0_build\\Output\\default_user\\Mouse_Testdata\\Resources\\Networks", "method=rho.p")
+
+
+cellexalObj = logNetwork(cellexalObj, NULL, file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','Networks','Enlarged_Network0_2021-06-30-14-41-41.png'), file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','selection2.txt'))
+

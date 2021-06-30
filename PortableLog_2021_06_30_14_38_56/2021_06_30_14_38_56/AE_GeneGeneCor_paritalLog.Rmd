@@ -1,0 +1,56 @@
+## Genes correlated to Tmem176a 
+
+ Max correlation value is 0.667 and min correlation value is -0.603 . All Correlation data can be downloaded from [here]( 2021_06_30_14_38_56/tables/Cor.Tmem176a.txt ) 
+
+ 
+### Genes positively correlated to Tmem176a 
+
+
+### 2D DRC DDRtree dim 1,2 ( Tmem176b + 9 genes )  
+ ![]( 2021_06_30_14_38_56/png/Tmem176b_and_9.DDRtree.1_2.png )  ### 2D DRC DDRtree dim 2,3 ( Tmem176b + 9 genes )  
+ ![]( 2021_06_30_14_38_56/png/Tmem176b_and_9.DDRtree.2_3.png )  ### 2D DRC DDRtree dim 1,3 ( Tmem176b + 9 genes )  
+ ![]( 2021_06_30_14_38_56/png/Tmem176b_and_9.DDRtree.1_3.png ) 
+<details>
+  <summary>Click to expand gene list</summary>
+
+[Tmem176b](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Tmem176b) 
+ [Pkm](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Pkm) 
+ [Coro1a](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Coro1a) 
+ [Lyz2](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Lyz2) 
+ [Lcp1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Lcp1) 
+ [Limd2](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Limd2) 
+ [Adgrl4](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Adgrl4) 
+ [Ifitm1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Ifitm1) 
+ [Tmsb4x](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Tmsb4x) 
+ [Lsp1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Lsp1) 
+
+</details>
+
+
+
+### Genes negatively correlated to Tmem176a 
+
+
+### 2D DRC DDRtree dim 1,2 ( Tspo2 + 9 genes )  
+ ![]( 2021_06_30_14_38_56/png/Tspo2_and_9.DDRtree.1_2.png )  ### 2D DRC DDRtree dim 2,3 ( Tspo2 + 9 genes )  
+ ![]( 2021_06_30_14_38_56/png/Tspo2_and_9.DDRtree.2_3.png )  ### 2D DRC DDRtree dim 1,3 ( Tspo2 + 9 genes )  
+ ![]( 2021_06_30_14_38_56/png/Tspo2_and_9.DDRtree.1_3.png ) 
+<details>
+  <summary>Click to expand gene list</summary>
+
+[Tspo2](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Tspo2) 
+ [Car1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Car1) 
+ [Atp1b2](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Atp1b2) 
+ [Klf1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Klf1) 
+ [Gm15915](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Gm15915) 
+ [Aqp1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Aqp1) 
+ [Kel](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Kel) 
+ [Ermap](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Ermap) 
+ [Mfsd2b](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Mfsd2b) 
+ [Gata1](https://www.genecards.org/cgi-bin/carddisp.pl?gene=Gata1) 
+
+</details>
+
+
+
+

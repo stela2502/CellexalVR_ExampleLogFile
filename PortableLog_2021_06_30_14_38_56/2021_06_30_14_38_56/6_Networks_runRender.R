@@ -1,0 +1,2 @@
+setwd( file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','2021_06_30_14_38_56') )
+ markdown::markdownToHTML(file=file.path('I:','CellexalVR','CellexalVR_0.14.0_build','Output','default_user','Mouse_TestData','2021_06_30_14_38_56','AF_Networks_paritalLog.Rmd'),  output='../AF_Networks_2021_06_30_14_38_56.html',  stylesheet= 'table.css' )
