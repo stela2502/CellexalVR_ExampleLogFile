@@ -1937,13 +1937,14 @@ ul > li > .anchor-section {display: none;}
 
 <style>
 #addition {
-  background-color: #2bfdfa;
+  background-color: #fffcdd;
 }
 #youtube {
   text-align: center;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  X-Frame-Options: SAMEORIGIN
 }
 </style>
 
@@ -2036,15 +2037,19 @@ following commands:</p>
 library(cellexalvrR)
 export2cellexalvr( cellexalObj, "Data/Mouse_Testdata")
 </code></pre>
-<p>Then start CellexalVR and load the dataset. The following video shows how the follwing section has been created: </p>
+<p>Then start CellexalVR and load the Mouse_Testdata dataset. 
+The following video shows how I use the keyboard to select the Mouse_Testdata from a large set of datasets. How I grab the 'cells' and throw them into the loading cone.
+This data is displayed instantly. </p>
 
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.38.36.07.mp4 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iksjcvlDATM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -->
-<iframe width="420" height="315" id=youtube
-src="https://youtu.be/embed/iksjcvlDATM" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/1.mp4" type="video/mp4">
+</video>
+
+
 
 <p>Any video directly in front of a section describes how this section has been created in VR.</p>
 
@@ -2057,12 +2062,12 @@ src="https://youtu.be/embed/iksjcvlDATM" frameborder="0" allow="accelerometer;  
 <div id="addition">
   <p>
 Selecting cells in a 3D graph is a feature only available in CellexalVR to the time of the creation of this document.
-This video shows how to select cells in CellexalVR and create a two group comparison using the 'Create Heatmap' menu button.
+This video shows how to select cells in CellexalVR and create a two group comparison using the 'Create Heatmap' menu button on the menu.
 </p>
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.38.57.08.mp4 -->
-<iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/2.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -2142,13 +2147,18 @@ R ID
 
 <div id=addition>
 <p>
-Activating the 'Save Heatmap' button in VR will create the following section. The heatmap is created by CellexalVR and the version in the log file is exactly the same as seen in VR. This image is also available in the zip file (&lt;timestamp&gt;/png/heatmap_&lt;timestamp&gt;.png).
+
+After the heatmap has been loaded it can be placed freely in the VR work area.
+Activating the 'Save Heatmap' button in VR will create the following section. 
+The heatmap figure in this log file is exacly the same as seen in VR. 
+This image is also available in the PorableLog zip file in the folder &lt;timestamp&gt;/png.
+
 </p>
 
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.39.26.09.mp4 -->
-<iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/3.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -2753,21 +2763,24 @@ rsf I:\CellexalVR\CellexalVR_0.14.0_build\Output\default_user\Mouse_TestData\202
 
 <div id=addition>
   <p>
-  Selecting a gene name in the VR heatmap will recolor the drcs with the expression of this gene.
+  Selecting a gene name in the VR heatmap will recolor the drcs with the expression of this gene. The cells showing the highest expression of this gene will be encircled with a red highlight for several seconds.
 </p>
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.39.53.10.mp4 -->
-  <iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/4.mp4" type="video/mp4">
+</video>
+</div>
 
+<div id=addition>
 <p>
-  In addition the gene name will show in a list left of the VR keyboard. Clicking the '&lt;' sign left of this gene name will correlate all genes to the expression of that gene and document this data in the following section.
+
+  Activating the VR keyboard you will see that the gene has been added to the gene list left of the keyboard. Clicking the '&lt;' sign left of this gene name will correlate all genes to the expression of that gene. The correlation data as well as the summary expression of the top ten positively and negatively correlated genes will be available in the next log section.
 </p>
 
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.40.17.11.mp4 -->
-<iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/5.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -2829,14 +2842,14 @@ Click to expand gene list
 <div id=addition>
   <p>
   The VR heatmaps contain a button to re-color the graphs with the heatmap selection.
-  Recoloring the graph allows for the modification of the selection as well as for the re-usage of the same selection in a new analysis.
-  Here I create a transcription factor network analysis for the two selected cells groups.
+  Recoloring the graph allows for the modification of the selection as well as for the re-usage of the same selection in a new analysis.</p><p>
+  Here I just save this selection again and create a transcription factor network analysis for the two selected cells groups. The networks show up as small balls positioned in a shadow drc at the position of the original cell group and with a group colored band around it.
 </p>
 
   <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.40.17.11.mp4 -->
-<iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/6.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -2861,14 +2874,14 @@ You can download the network table <a href='./2021_06_30_14_38_56/AANetworks.nwk
 
 <div id=addition>
   <p>
-  Each transcription factor network can be enlarged by clicking the miniature network in the shaddow graph.
-  Pressing the Save As Image button on colored the border of the network adds the following section into the log.
+  Each single transcription factor network can be enlarged by clicking the miniature network in the shaddow graph.
+  Pressing the "Save As Image" button on colored the border of the network adds the following section into the log.
 </p>
 
   <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.41.25.13.mp4 -->
-<iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/7.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -2890,9 +2903,9 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
   <p> Turning around alows me to look at the data from afar. I use the 'Camera Tool' to take the following screenshot.</p>
 
   <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.42.01.14.mp4 -->
-<iframe width="420" height="315" id=youtube
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
+<video width="560" height="420" id=youtube poster="images/trailer_thumbnail.PNG" controls=1>
+  <source src="../videos/8.mp4" type="video/mp4">
+</video>
 
 </div>
 
@@ -2902,6 +2915,22 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 <p>New VR screenshot.</p>
 
 </div>
+
+
+<div id=addition>
+  <p>
+  The last part in the session  log gets added when you either shut down CellexalVR or load a new dataset using the 'Loading Screen' button in the menu.
+  </p>
+  <p>
+    The most interesting here is that you can get the R log of this session by clicking the link. With this R log you can almost re-create this log. Screenshots, VR heatmaps and the transcrtiption networs are VR specific log sections.
+  </p>
+  <p>
+    The paths in the R log needs to be changed if you have run another VR session in between or you want to re-run this on a different computer. The selection files are all stored in the session log, but the paths in the R log link to the original selection files.
+  </p>
+
+
+</div>
+
 <div id="session-end" class="section level2" number="2.7">
 <h2><span class="header-section-number">2.7</span> Session End</h2>
 <p>Wed Jun 30 14:46:13 2021 The R log of this session can be downloaded from <a href='2021_06_30_14_38_56/Rlog.txt' download>here</a>.</p>
