@@ -2025,21 +2025,21 @@ ul > li > .anchor-section {display: none;}
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="addition">
+<div id=addition>
 <h1>Additional modifications</h1>
 <p>
-This portable log html file has been modified to clarfiy how such a log file is being created in CellexalVR.
+This portable log html file has been modified to clarify how a log file is being created in our virtual realitiy data analysis platform <a href="https://cellexalvr.med.lu.se/">CellexalVR</a> (<a href="https://github.com/sonejilab/cellexalvr">on github</a>).
 All log file areas showing this backgroung color have been added and are not part of a normal log file.
 </p><p>
-The dataset analyzed here comes with the cellexalvrR R package. This data can be exported into a CellexalVR Data folder using the 
+The dataset analyzed here comes with the <a href="https://github.com/sonejilab/cellexalvrR">cellexalvrR R package</a>. This data can be exported into a CellexalVR Data folder using the 
 following commands:</p>
 <pre><code>
 library(cellexalvrR)
 export2cellexalvr( cellexalObj, "Data/Mouse_Testdata")
 </code></pre>
-<p>Then start CellexalVR and load the Mouse_Testdata dataset. 
+<p>The CellexalVR.exe executable should be in the R working drirectory. Start CellexalVR and load the Mouse_Testdata dataset. 
 The following video shows how I use the keyboard to select the Mouse_Testdata from a large set of datasets. How I grab the 'cells' and throw them into the loading cone.
-This data is displayed instantly. </p>
+This small data is displayed instantly. Loading a dataset containing 250k cells takes about 20 sec before the data can be used in VR and about 1 min before the backend R process has been started. Measured using a SSD to store the data.</p>
 
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.38.36.07.mp4 
 
@@ -2060,9 +2060,9 @@ This data is displayed instantly. </p>
 <p>Analysis of data: Mouse_Testdata</p>
 <p>Started on Wed Jun 30 14:38:57 2021</p>
 
-<div id="addition">
+<div id=addition>
   <p>
-Selecting cells in a 3D graph is a feature only available in CellexalVR to the time of the creation of this document.
+Selecting cells in a 3D graph is at the moment a feature only available in CellexalVR.
 This video shows how to select cells in CellexalVR and create a two group comparison using the 'Create Heatmap' menu button on the menu.
 </p>
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.38.57.08.mp4 -->
@@ -2766,7 +2766,7 @@ rsf I:\CellexalVR\CellexalVR_0.14.0_build\Output\default_user\Mouse_TestData\202
 
 <div id=addition>
   <p>
-  Selecting a gene name in the VR heatmap will recolor the drcs with the expression of this gene. The cells showing the highest expression of this gene will be encircled with a red highlight for several seconds.
+  Selecting a gene name in the VR heatmap will recolor all drcs with the expression of this gene. The cells showing the highest expression of this gene will be encircled with a red highlight for several seconds.
 </p>
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.39.53.10.mp4 -->
 <video width="560" height="420" id=youtube controls=1>
@@ -2778,7 +2778,7 @@ rsf I:\CellexalVR\CellexalVR_0.14.0_build\Output\default_user\Mouse_TestData\202
 <div id=addition>
 <p>
 
-  Activating the VR keyboard you will see that the gene has been added to the gene list left of the keyboard. Clicking the '&lt;' sign left of this gene name will correlate all genes to the expression of that gene. The correlation data as well as the summary expression of the top ten positively and negatively correlated genes will be available in the next log section.
+  Activating the VR keyboard you will see that the gene has been added to the gene list left of the keyboard. Clicking the '&lt;' sign left of this gene name will correlate all genes to the expression of that gene. The correlation data as well as the summary expression of the top ten positively and negatively correlated genes will be available in the next log section. The gene expression color set in R is different from VR to highlight the fact that in the log file a summary gene expression is shown.
 </p>
 
 <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.40.17.11.mp4 -->
@@ -2848,10 +2848,10 @@ Click to expand gene list
   <p>
   The VR heatmaps contain a button to re-color the graphs with the heatmap selection.
   Recoloring the graph allows for the modification of the selection as well as for the re-usage of the same selection in a new analysis.</p><p>
-  Here I just save this selection again and create a transcription factor network analysis for the two selected cells groups. The networks show up as small balls positioned in a shadow drc at the position of the original cell group and with a group colored band around it.
+  Here I just save this selection again and create a transcription factor network analysis for the two selected cells groups. The networks show up as small spheres positioned in a shadow drc at the position of the original cell group and with a group colored band around it.
 </p>
 
-  <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.40.17.11.mp4 -->
+  <!-- Cellexalvr_0.14.0_build 2021.06.30 - 14.40.46.12.mp4 -->
 <video width="560" height="420" id=youtube controls=1>
   <source src="../videos/6.mp4" type="video/mp4">
     <p>Your browser doesn't support HTML5 video. Here is a <a href="../videos/6.mp4">link to the video</a> instead.</p>
@@ -2933,7 +2933,7 @@ You can download the network table <a href='./2021_06_30_14_38_56/AANetworks.nwk
     The most interesting here is that you can get the R log of this session by clicking the link. With this R log you can almost re-create this log. Screenshots, VR heatmaps and the transcrtiption networks are VR specific log sections and cannot be created using R alone.
   </p>
   <p>
-    The paths in the R log needs to be changed if you have run another VR session in between or you want to re-run this on a different computer. The selection files are all stored in the session log, but the paths in the R log link to the original selection files.
+    All paths in the R log needs to be changed if you have run another VR session in between or you want to re-run this on a different computer. The selection files are all stored in the session log, but the paths in the R log link to the original selection files.
   </p>
 
 
